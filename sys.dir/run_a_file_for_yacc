@@ -1,0 +1,4 @@
+yacc -d temp.y
+lex temp.l
+cc lex.yy.c y.tab.c -ll
+./a.out

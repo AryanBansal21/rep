@@ -11,6 +11,9 @@ string b = "b";
 
 map<string, map<string, vector<string>>> table;
 
+
+// bas grammar ke according table change kr lena
+
 void fill_table() {
 	table[S][a] = {b, A, a, A};
 	table[S][b] = {a, B, b, B};
